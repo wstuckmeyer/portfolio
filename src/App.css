@@ -1,0 +1,351 @@
+@font-face{
+  font-family:'milk';
+  src: url('./fonts/LemonMilk.otf');
+}
+@font-face{
+  font-family:'text';
+  src: url('./fonts/regular.ttf');
+}
+@font-face{
+  font-family: 'leon';
+  src: url('./fonts/leon.ttf');
+}
+@font-face{
+  font-family:'goth';
+  src: url('./fonts/DylanGothic-Regular.ttf');
+}
+@font-face{
+  font-family:'robo';
+  src:url('./fonts/Roboto-Regular.ttf');
+}
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #000000;
+  height: 120%;
+  padding: 20px;
+  color: white;
+}
+
+.App-title {
+  font-size: 1.5em;
+  font-family:'milk';
+}
+
+.App-intro {
+  font-size: large;
+}
+.bm-menu {
+  font-family:'milk';
+  z-index: 999;
+  align-items: right;
+  width:100%;
+  
+}
+.bm-overlay {
+  background:#DABDBB;
+}
+.bm-morph-shape {
+  fill:#DABDBB ;
+}
+.menu-item{
+  font-family:'milk';
+  font-size: 2em;
+  text-decoration: none;
+  color:#ffffff;
+  margin-bottom: 10%;
+  margin-left: 40%;
+  width:100%;
+}
+.bm-burger-button {
+  position: fixed;
+  width: 10vw;
+  height: 10vh;
+  right: 40%;
+  bottom: 70%;
+  margin-right: 50%;
+}
+.bm-item-list{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.menu-item:visited{
+  color:#ffffff;
+}
+.menu-item:hover{
+  color:#a8adb5;
+}
+.bm-burger-button{
+  z-index: 999;
+  width:100%;
+  height:100%;
+  position: absolute
+}
+#background-video{
+  z-index: -100;
+  height:100vh;
+
+}
+#title{
+  background-color: rgba(0,0,0,0);
+  
+  position: relative;
+  margin-top: 7%;
+  font-family: 'milk';
+  font-size: 8vw;
+  color: #ffffff;
+  width:28vw;
+}
+#subtitle{
+  background-color: rgba(0,0,0,0);
+  position: relative;
+  font-size: 2vw;
+  color: #ffffff;
+  margin-top: 30%;
+  font-family: 'milk'
+
+
+}
+#burger{
+  position: absolute;
+  margin-top: 2%;
+  margin-left: -48%;
+  width:2vw;
+}
+#words{
+  width: 40%;
+  height:10%;
+  position: absolute;
+  margin-top: 4%;
+  margin-left: 42%;
+  border-color: pink;
+  text-align: left;
+}
+/*Work page styles*/
+.workHeader{
+  background-color: #A1DEEA;
+  height: 30vh;
+  width:100vw;
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: -1%;
+}
+.workTitle{
+  font-family: 'milk';
+  color: #ffffff;
+  font-size: 6vw;
+  letter-spacing: 3%;
+
+}
+/*About page styles*/
+#aboutContent{
+  display: flex;
+  margin-top: 6%;
+  margin-left:6%;
+  margin-right:10%;
+  background-color: #A1DEEA;
+
+
+
+}
+html{
+  background-color: #A1DEEA;
+}
+#aboutMeText{
+  font-size: 1.4em;
+  font-family: 'robo';
+  width:40%;
+  margin-left: 10%;
+  color: #4b4f56;
+}
+/*logos*/
+
+
+
+
+#logo1{
+  animation: pulse 1s 5 ;
+  animation-fill-mode: both;
+}
+#logo2{
+  animation: pulse  1s 5;
+  animation-fill-mode: both;
+  animation-delay: 15s
+}
+#logo3{
+  animation: pulse  1s 5;
+  animation-fill-mode: both;
+  animation-delay: 23s;
+  }
+#logo4{
+  animation: pulse  1s 5;
+  animation-fill-mode: both;
+  animation-delay: 30s;
+}
+#logo5{
+  animation: pulse  1s 5;
+  animation-fill-mode: both;
+  animation-delay: 40s;
+}
+#logo6{
+  animation: pulse  1s 5;
+  animation-fill-mode: both;
+  animation-delay: 7s;
+}
+#logo7{
+  animation: pulse  1s 5;
+  animation-fill-mode: both;
+  animation-delay: 35s;
+}
+#rails{
+  width:12%;
+  animation: pulse  1s 5;
+  animation-fill-mode: both;
+  animation-delay: 19s
+}
+#logo9{
+  animation: pulse  1s 5;
+  animation-fill-mode: both;
+  animation-delay: 45s;
+}
+.resModal{
+  margin: 0 auto;
+  width: 50%;
+  height:100%;
+}
+#resumebtn:hover{
+  color:white;
+}
+#resumebtn{
+  font-size: 2em;
+}
+.stack{
+  font-family: 'robo';
+  font-size:2em;
+  color: #4b4f56;
+}
+
+/*Contact Page*/
+#contactBody{
+  display: flex;
+  justify-content: center;
+  padding-top: 2%;
+  background-color: #A1DEEA;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  height: 7%;
+  width: 100%;
+  overflow:hidden;
+}
+.contactInfo{
+  font-family:'robo';
+  font-size: 2em;
+  text-decoration: none;
+  color:#000000;
+}
+.contactInfo:vistited{
+  text-decoration: none;
+  color:#000000;
+}
+.links{
+  display: flex;
+  flex-direction: column;
+  
+}
+.linkIcon{
+  margin-bottom: 30%;
+  width:50%;
+}
+/*Projects Page*/
+#HLogo{
+  width:15%;
+  height:15%;
+}
+#project1{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+#project2{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.project-titles{
+  font-family: 'robo';
+  font-size: 1.5em;
+}
+.project-name{
+  font-family: 'robo';
+  font-size:3em;
+}
+.description{
+  align-items: left;
+}
+#projects{
+  margin-left: -2%;
+  vertical-align: center;
+}
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+@keyframes pulse {
+  0% {
+  -webkit-transform: scale3d(1, 1, 1);
+  transform: scale3d(1, 1, 1);
+  }
+  50% {
+  -webkit-transform: scale3d(1.05, 1.05, 1.05);
+  transform: scale3d(1.05, 1.05, 1.05);
+  }
+  100% {
+  -webkit-transform: scale3d(1, 1, 1);
+  transform: scale3d(1, 1, 1);
+  }
+} 
+
+@media (max-width: 600px){
+  .menu-item{
+    font-size: 2em;
+    margin-left: 0%;
+  }
+  .bm-menu{
+    z-index: 100;
+    width:100vw;
+    background-color: #DABDBB;
+    align-items: center;
+  }
+  .bm-morph-shape{
+    width:100vw;
+    background-color: #DABDBB;
+  }
+  #burger{
+    width:8vw;
+  }
+  #words{
+    margin-left: 20%;
+    margin-top: 40%
+
+  }
+  #title{
+    
+    font-size: 11vw;
+  }
+  #subtitle{
+    font-size: 7vw;
+  }
+}
