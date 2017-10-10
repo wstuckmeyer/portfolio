@@ -71,7 +71,7 @@
   right: 40%;
   bottom: 70%;
   margin-right: 50%;
-  
+
 }
 .bm-item-list{
   display: flex;
@@ -155,7 +155,8 @@
   margin-left:6%;
   margin-right:10%;
   background-color: #A1DEEA;
-
+  width:92%;
+  margin-bottom: 5%;
 
 
 }
@@ -245,11 +246,11 @@ html{
 }
 .stack{
   font-family: 'robo';
-  font-size:2em;
+  font-size:1.4em;
   color: #4b4f56;
   border-bottom: 1px solid;
-  width: 29%;
-  margin-left: 36%;
+  width: 20%;
+  margin-left: 40%;
 }
 
 /*Contact Page*/
@@ -258,7 +259,7 @@ html{
   justify-content: center;
   padding-top: 2%;
   background-color: #A1DEEA;
-  position: absolute;
+  position: relative;
   left: 0;
   bottom: 0;
   height: 7%;
@@ -291,40 +292,66 @@ html{
 }
 /*Projects Page*/
 #HLogo{
-  width:15%;
+  width:24%;
   height:25%;
 }
-#logo1fade{
-  width:30%;
+#clean{
+  width:24%;
+}
+.logoimg{
+  padding-right: 4%;
 }
 #project1{
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: center;
+  margin: 0 auto;
+  width:80%;
+  margin-bottom: 4%;
 }
 #project2{
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: center;
+  width:80%;
+  margin:0 auto;
+  margin-left: 1%;
+
+}
+.projectlink{
+  text-decoration: none;
+
+}
+.projectlink:visited{
+  color:#4b4f56;
+}
+.projectlink:hover{
+  color:#ffffff;
 }
 .project-titles{
   font-family: 'robo';
-  font-size: 1.5em;
+  font-size: 1.2em;
   color: #4b4f56;
+  text-align: left;
 }
 .project-name{
   font-family: 'robo';
-  font-size:3em;
+  font-size:2em;
   color: #4b4f56;
+  text-align: left;
 }
 .description{
   align-items: left;
+  text-align: left;
   color: #4b4f56;
   font-family: 'robo';
+  margin-left: 3%;
+  font-size:.9em;
 }
 #projects{
+  margin-top:5%;
   margin-left: -2%;
   vertical-align: center;
 }
@@ -392,16 +419,43 @@ html{
   #aboutMeText{
     align-self:center;
     width:90%;
+    margin-bottom: 8%;
 
   }
   .bm-burger-button {
-  position: fixed;
-  width: 10vw;
-  height: 10vh;
-  left: 0%;
-  top:0%;
-
-  margin-right: 50%;
-  background-color: black;
-}
+    position: fixed;
+    width: 20vw;
+    height: 10vh;
+    left: 0%;
+    top:0%;
+    margin-right: 50%;
+    z-index: 200 !important;
+  }
+  .workTitle{
+    margin-top: 30%;
+    font-size:3em;
+  }
+  .logos{
+    width:90%;
+  }
+  .stack{
+    width:80%;
+    margin: 0 auto;
+    border-bottom: none;
+    margin-bottom: 4%;
+  }
+  #resumebtn{
+    font-size: 1.4em;
+  }
+  .front-end{
+    width:100%;
+    justify-content: space-around;
+  }
+  .back-end{
+    justify-content: space-between;
+  }
+  .logosall{
+    padding: 5%;
+    width: 10%;
+  }
 }

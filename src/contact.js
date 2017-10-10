@@ -13,12 +13,12 @@ export default class Footer extends Component{
 					
 					<a href='mailto:wstuckmeyer@gmail.com' ><img className='linkIcon'   src={Mail}/></a>
 
-					<a href='https://github.com/wstuckmeyer'><img className='linkIcon' src={Github} /></a>
+					<a target="_blank" href='https://github.com/wstuckmeyer'><img className='linkIcon' src={Github} /></a>
 					
-					<a 	href='https://www.linkedin.com/in/wstuckmeyer'><img className='linkIcon' src={Linkedin} /></a>
+					<a 	target="_blank" href='https://www.linkedin.com/in/wstuckmeyer'><img className='linkIcon' src={Linkedin} /></a>
 				
-					<a	href='https://www.instagram.com/wstuckmeyer'><img className='linkIcon' src={Insta} /></a>
-					<a href='https://www.twitter.com/wesstuckmeyer'><img className='linkIcon' src={Twitter} /></a>
+					<a	target="_blank" href='https://www.instagram.com/wstuckmeyer'><img className='linkIcon' src={Insta} /></a>
+					<a target="_blank" href='https://www.twitter.com/wesstuckmeyer'><img className='linkIcon' src={Twitter} /></a>
 				
 				
 				
