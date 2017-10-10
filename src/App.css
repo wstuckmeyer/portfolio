@@ -71,6 +71,7 @@
   right: 40%;
   bottom: 70%;
   margin-right: 50%;
+  
 }
 .bm-item-list{
   display: flex;
@@ -83,6 +84,7 @@
 }
 .menu-item:hover{
   color:#a8adb5;
+  animation: pulse 1s;
 }
 .bm-burger-button{
   z-index: 999;
@@ -133,7 +135,7 @@
 /*Work page styles*/
 .workHeader{
   background-color: #A1DEEA;
-  height: 30vh;
+  height: 23vh;
   width:100vw;
   display: flex;
   justify-content: space-around;
@@ -161,20 +163,32 @@ html{
   background-color: #A1DEEA;
 }
 #aboutMeText{
-  font-size: 1.4em;
+  font-size: 1em;
   font-family: 'robo';
   width:40%;
   margin-left: 10%;
   color: #4b4f56;
+  text-align: left;
+  margin-top:2%;
 }
 /*logos*/
 
 
 
+#logos{
+  display: flex;
+  justify-content: center;
+  align-items: center;
 
+}
+.logosall{
+  width:10%;
+  height:20%;
+}
 #logo1{
   animation: pulse 1s 5 ;
   animation-fill-mode: both;
+  animation-delay: 45s
 }
 #logo2{
   animation: pulse  1s 5;
@@ -224,6 +238,7 @@ html{
 }
 #resumebtn:hover{
   color:white;
+  animation: pulse 1s infinite;
 }
 #resumebtn{
   font-size: 2em;
@@ -232,6 +247,9 @@ html{
   font-family: 'robo';
   font-size:2em;
   color: #4b4f56;
+  border-bottom: 1px solid;
+  width: 29%;
+  margin-left: 36%;
 }
 
 /*Contact Page*/
@@ -264,12 +282,20 @@ html{
 }
 .linkIcon{
   margin-bottom: 30%;
-  width:50%;
+  width:35%;
+}
+.linkIcon:hover{
+  animation: pulse 1s infinite;
+  animation-fill-mode: both;
+
 }
 /*Projects Page*/
 #HLogo{
   width:15%;
-  height:15%;
+  height:25%;
+}
+#logo1fade{
+  width:30%;
 }
 #project1{
   display: flex;
@@ -286,13 +312,17 @@ html{
 .project-titles{
   font-family: 'robo';
   font-size: 1.5em;
+  color: #4b4f56;
 }
 .project-name{
   font-family: 'robo';
   font-size:3em;
+  color: #4b4f56;
 }
 .description{
   align-items: left;
+  color: #4b4f56;
+  font-family: 'robo';
 }
 #projects{
   margin-left: -2%;
@@ -348,4 +378,30 @@ html{
   #subtitle{
     font-size: 7vw;
   }
+  #aboutContent{
+    flex-direction: column;
+    justify-content: center;
+   
+    
+  }
+  #contactBody{
+    position: relative;
+    left: 0;
+    bottom: 0;
+  }
+  #aboutMeText{
+    align-self:center;
+    width:90%;
+
+  }
+  .bm-burger-button {
+  position: fixed;
+  width: 10vw;
+  height: 10vh;
+  left: 0%;
+  top:0%;
+
+  margin-right: 50%;
+  background-color: black;
+}
 }
