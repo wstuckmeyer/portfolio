@@ -27,7 +27,7 @@ export default class Projects extends Component{
 					<Fade duration={3000} delay={400}>
 					<div id='project2'>
 						<img id='clean' className='logoimg'src={Clean}/>
-						<div>
+						<div id='p2'>
 							<p className='project-name'>NYClean</p>
 							<p className='project-titles'>Ruby, Rails, GoogleMaps API</p>
 							
