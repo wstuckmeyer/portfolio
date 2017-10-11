@@ -360,6 +360,7 @@ html{
 #p2{
   margin-right:4%;
 }
+
 @keyframes App-logo-spin {
   from { transform: rotate(0deg); }
   to { transform: rotate(360deg); }
@@ -476,5 +477,13 @@ html{
 #clean{
   width:64%;
 }
-
+#p2descrip{
+  margin-left: 15%;
+}
+#p2{
+  margin-left: 10%;
+}
+#p1descrip{
+  margin-left: 10%;
+}
 }

@@ -17,7 +17,7 @@ export default class Projects extends Component{
 							<p className='project-name'>HarmonyUs</p>
 							<p className='project-titles'>React-Native, Node.js, Firebase</p>
 						</div>
-						<div className='description'>
+						<div className='description' id='p1descrip'>
 							<p>An IOS app to keep housemates organized</p>
 							<a target="_blank" className='projectlink' href="https://github.com/wstuckmeyer/HarmonyUs">Github</a>
 								<p>• Updates in realtime with Firebase</p>
@@ -33,7 +33,7 @@ export default class Projects extends Component{
 							
 							<p className='project-titles'>Isotope.js, PostgreSQL</p>
 						</div>
-						<div className='description'>
+						<div className='description' id='p2descrip'>
 							<p>A web app to organize community cleanups in NYC</p>
 								<a target="_blank" className='projectlink' href="https://drive.google.com/file/d/0B6CrmsXBcZ7QSWI2S2UwYllhbEk/view">Preview</a> | 
 							  <a target="_blank" className='projectlink' href='https://github.com/wstuckmeyer/HarmonyUs'>Github</a>
