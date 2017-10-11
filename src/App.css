@@ -318,6 +318,7 @@ html{
   width:80%;
   margin:0 auto;
   margin-left: 1%;
+  margin-bottom: 10%;
 
 }
 .projectlink{
@@ -458,4 +459,17 @@ html{
     padding: 5%;
     width: 10%;
   }
+  #project1{
+    flex-direction: column;
+  }
+  #project2{
+    flex-direction: column;
+  }
+  #HLogo{
+  width:44%;
+  height:25%;
+  }
+#clean{
+  width:64%;
+}
 }
