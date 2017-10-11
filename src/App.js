@@ -15,6 +15,7 @@ class App extends Component {
    
   }
   render() {
+    document.title="Wesley Stuckmeyer"
     return (
       <BrowserRouter>
      <div>
