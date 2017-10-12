@@ -37,7 +37,7 @@ export default class Projects extends Component{
 						<img id='HLogo' className='logoimg'src={HLogo}/>
 						<div id='p1'>
 							<p className='project-name'>HarmonyUs</p>
-							<p className='project-titles'>React-Native, Node.js, Firebase</p>
+							<p className='project-titles'>React-Native, Node.js</p><p className='project-titles'> Firebase</p>
 						</div>
 						<div className='description' id='p1descrip'>
 							<p>An IOS app to keep housemates organized</p>
