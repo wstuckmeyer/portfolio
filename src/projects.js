@@ -3,7 +3,29 @@ import Masonry from 'react-masonry-component'
 import HLogo from './assets/FinalLogo.png';
 import Clean from './assets/greylogo2.png';
 import { Fade, Flip, Rotate, Zoom } from 'react-reveal';
+import Modal from 'react-modal';
 export default class Projects extends Component{
+	constructor() {
+    super();
+ 
+    this.state = {
+      modalIsOpen: false
+    };
+ 
+    this.openModal = this.openModal.bind(this);
+    
+    this.closeModal = this.closeModal.bind(this);
+  }
+ 
+  openModal() {
+    this.setState({modalIsOpen: true});
+  }
+ 
+ 
+ 
+  closeModal() {
+    this.setState({modalIsOpen: false});
+  }
 	render(){
 		return(
 			<div>
@@ -19,7 +41,7 @@ export default class Projects extends Component{
 						</div>
 						<div className='description' id='p1descrip'>
 							<p>An IOS app to keep housemates organized</p>
-							<a target="_blank" className='projectlink' href="https://github.com/wstuckmeyer/HarmonyUs">Github</a>
+							<a target="_blank" className='projectlink' href="https://github.com/wstuckmeyer/HarmonyUs">Github</a> | <a className='projectlink' onClick={this.openModal}>Prototype</a>
 								<p>• Updates in realtime with Firebase</p>
 								<p>• Users add themselves to a household, then add shopping lists, to-do lists, and expenses</p>
 						</div>
@@ -44,6 +66,20 @@ export default class Projects extends Component{
 					</div>
 					</Fade>
 				</div>
+				<Modal
+          isOpen={this.state.modalIsOpen}
+          onAfterOpen={this.afterOpenModal}
+          onRequestClose={this.closeModal}
+          className={{
+          	base: 'resModal'
+          }}
+          contentLabel="Example Modal"
+        >
+ 
+          <iframe src="https://marvelapp.com/6h35fc7?emb=1" width="452" height="901" allowTransparency="true" frameborder="0"></iframe>
+          
+         
+        </Modal>
 		</div>	
 		)
 	}
