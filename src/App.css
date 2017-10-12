@@ -292,12 +292,15 @@ html{
 }
 /*Projects Page*/
 #HLogo{
-  width:24%;
+  width:12%;
   height:25%;
+  margin-right:10%;
+  margin-left: -1%;
 }
 #clean{
   width:24%;
   margin-right: 6%;
+ 
 }
 .logoimg{
   padding-right: 4%;
@@ -309,7 +312,7 @@ html{
   justify-content: center;
   margin: 0 auto;
   width:80%;
-  margin-bottom: 4%;
+  margin-bottom: 10%;
 }
 #project2{
   display: flex;
@@ -324,6 +327,7 @@ html{
 }
 .projectlink{
   text-decoration: none;
+  color:#4b4f56;
 
 }
 .projectlink:visited{
@@ -354,11 +358,16 @@ html{
 }
 #projects{
   margin-top:5%;
-  margin-left: -2%;
+  margin-left: 2%;
   vertical-align: center;
 }
 #p2{
   margin-right:4%;
+
+}
+#p1{
+  margin-left: 1%;
+  margin-right: 4%;
 }
 
 @keyframes App-logo-spin {

@@ -1,7 +1,7 @@
 import React, {Component} from 'react';
 import Masonry from 'react-masonry-component'
-import HLogo from './assets/FinalLogo.png';
-import Clean from './assets/greylogo2.png';
+import HLogo from './assets/Screen.png';
+import Clean from './assets/Group.png';
 import { Fade, Flip, Rotate, Zoom } from 'react-reveal';
 import Modal from 'react-modal';
 export default class Projects extends Component{
@@ -35,7 +35,7 @@ export default class Projects extends Component{
 				<div id='projects'>
 					<Fade duration={3000} delay={200}><div id='project1'>
 						<img id='HLogo' className='logoimg'src={HLogo}/>
-						<div>
+						<div id='p1'>
 							<p className='project-name'>HarmonyUs</p>
 							<p className='project-titles'>React-Native, Node.js, Firebase</p>
 						</div>
@@ -57,8 +57,7 @@ export default class Projects extends Component{
 						</div>
 						<div className='description' id='p2descrip'>
 							<p>A web app to organize community cleanups in NYC</p>
-								<a target="_blank" className='projectlink' href="https://drive.google.com/file/d/0B6CrmsXBcZ7QSWI2S2UwYllhbEk/view">Preview</a> | 
-							  <a target="_blank" className='projectlink' href='https://github.com/wstuckmeyer/HarmonyUs'>Github</a>
+								<a target="_blank" className='projectlink' href="https://drive.google.com/file/d/0B6CrmsXBcZ7QSWI2S2UwYllhbEk/view">Preview</a> | <a target="_blank" className='projectlink' href='https://github.com/wstuckmeyer/HarmonyUs'>Github</a>
 								<p>•     Secure log-in with PostgreSQL and Devise</p>
                                 <p>•     Filter by neighborhood with Isotope.js</p>
 						</div>
@@ -67,19 +66,17 @@ export default class Projects extends Component{
 					</Fade>
 				</div>
 				<Modal
-          isOpen={this.state.modalIsOpen}
-          onAfterOpen={this.afterOpenModal}
-          onRequestClose={this.closeModal}
-          className={{
-          	base: 'resModal'
-          }}
-          contentLabel="Example Modal"
-        >
+          			isOpen={this.state.modalIsOpen}
+          			onAfterOpen={this.afterOpenModal}
+         			onRequestClose={this.closeModal}
+          			className={{
+          				base: 'resModal'
+          			}}
+          			contentLabel="Example Modal"
+        			>
  
-          <iframe src="https://marvelapp.com/6h35fc7?emb=1" width="452" height="901" allowTransparency="true" frameborder="0"></iframe>
-          
-         
-        </Modal>
+          			<iframe src="https://marvelapp.com/6h35fc7?emb=1" width="452" height="901" allowTransparency="true" frameborder="0"></iframe>
+        		</Modal>
 		</div>	
 		)
 	}
