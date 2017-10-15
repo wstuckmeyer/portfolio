@@ -242,7 +242,7 @@ html{
   animation: pulse 1s infinite;
 }
 #resumebtn{
-  font-size: 2em;
+  font-size: 1.2em;
 }
 .stack{
   font-family: 'robo';
@@ -294,12 +294,12 @@ html{
 #HLogo{
   width:12%;
   height:25%;
-  margin-right:10%;
-  margin-left: -1%;
+  margin-right:16%;
+  margin-left: -7%;
 }
 #clean{
   width:24%;
-  margin-right: 6%;
+  margin-right: 8%;
  
 }
 .logoimg{
@@ -312,7 +312,9 @@ html{
   justify-content: center;
   margin: 0 auto;
   width:80%;
-  margin-bottom: 10%;
+  margin-bottom: 5%;
+  padding-bottom: 5%;
+  border-bottom: solid 1px black;
 }
 #project2{
   display: flex;
@@ -366,8 +368,8 @@ html{
 
 }
 #p1{
-  margin-left: 1%;
-  margin-right: 10%;
+  
+  margin-right: 11%;
 }
 
 @keyframes App-logo-spin {

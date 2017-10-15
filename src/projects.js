@@ -36,7 +36,7 @@ export default class Projects extends Component{
 					<Fade duration={3000} delay={200}><div id='project1'>
 						<img id='HLogo' className='logoimg'src={HLogo}/>
 						<div id='p1'>
-							<p className='project-name'>HarmonyUs</p>
+							<p className='project-name'>HarmoniUs</p>
 							<p className='project-titles'>React-Native, Node.js</p><p className='project-titles'> Firebase</p>
 						</div>
 						<div className='description' id='p1descrip'>
@@ -60,6 +60,7 @@ export default class Projects extends Component{
 								<a target="_blank" className='projectlink' href="https://drive.google.com/file/d/0B6CrmsXBcZ7QSWI2S2UwYllhbEk/view">Preview</a> | <a target="_blank" className='projectlink' href='https://github.com/wstuckmeyer/HarmonyUs'>Github</a>
 								<p>•     Secure log-in with PostgreSQL and Devise</p>
                                 <p>•     Filter by neighborhood with Isotope.js</p>
+                                <p>•	GoogleMaps shows map of where the project is happening.</p>
 						</div>
 						
 					</div>
